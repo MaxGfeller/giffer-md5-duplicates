@@ -1,0 +1,29 @@
+{
+  "name": "giffer-md5-duplicates",
+  "version": "1.0.0",
+  "description": "Avoid duplicate GIFs using md5 hashes",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap tests/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxGfeller/giffer-md5-duplicates.git"
+  },
+  "keywords": [
+    "giffer",
+    "gifs",
+    "duplicates",
+    "md5"
+  ],
+  "author": "Max Gfeller <max.gfeller@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxGfeller/giffer-md5-duplicates/issues"
+  },
+  "homepage": "https://github.com/MaxGfeller/giffer-md5-duplicates",
+  "devDependencies": {
+    "giffer": "^2.0.5",
+    "tap": "^0.4.13"
+  }
+}
