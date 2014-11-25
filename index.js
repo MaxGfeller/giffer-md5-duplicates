@@ -15,7 +15,7 @@ module.exports = function(giffer) {
 			giffer.urlDb.createReadStream().pipe(through(function data(data) {
 				if(data.value.meta.md5 === metadata.md5) alreadyDownloaded = true
 			}, function end() {
-				if(!alreadyDownloaded) next(id, url, metadata)
+				if(!alreadyDownloaded) next(url, id, metadata)
 			}))
 		}))
 	})
