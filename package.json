@@ -1,6 +1,6 @@
 {
   "name": "giffer-md5-duplicates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Avoid duplicate GIFs using md5 hashes",
   "main": "index.js",
   "scripts": {
